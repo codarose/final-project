@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 20px;
+	background: black;
+	color: #f4f4f8;
+}
+
+body {
+	max-width: 1400px;
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 0.5px solid #f4f4f8;
+	border-radius: 40px;
+	padding: 16px 24px;
+	margin-top: 10px;
+}
+
+header .logo {
+	color: #009fb7;
+	font-style: italic;
+}
+
+header span {
+	color: #fe4a49;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	color: #f4f4f8;
+	text-decoration: none;
+}
+
+header a {
+	text-shadow: #f4f4f8 0px 4px 4px;
+	padding: 10px;
+}
+
+header a:hover {
+	color: #fed766;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	display: flex;
+	margin-top: 64px;
+	justify-content: space-between;
+}
+
+.hero h1 {
+	flex: 1;
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.hero div {
+	flex: 1;
+	color: #e6e6ea;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.hero p,
+.aboutme p {
+	max-width: 600px;
+	font-weight: 300;
+	opacity: 0.7;
+}
+
+.hero a {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	background: #fe4a49;
+	padding: 12px 24px;
+	border-radius: 20px;
+	width: fit-content;
+}
+
+.aboutme {
+	display: flex;
+	margin-top: 48px;
+	justify-content: space-between;
+}
+
+.feature-image {
+	width: 500px;
+	height: 500px;
+}
+
+.feature-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.about {
+	border: 0.5px solid #e6e6ea;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.abouttext {
+	max-width: 50%;
+}
+h2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 64px;
+	gap: 20px;
+}
+
+.card-img {
+	height: 240px;
+	width: 300px;
+}
+
+.card-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 24px;
+}
